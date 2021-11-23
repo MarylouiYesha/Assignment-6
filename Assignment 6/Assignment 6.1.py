@@ -6,24 +6,30 @@ c=int(input("Please enter your third number:"))
 d=int(input("Please enter your fourth number:"))
 
 #Print the 4 numbers from highest to lowest using only if-else statement.
-def arrange():    
- if a> b and c and d:
-    (first_number)=a
-    return first_number
- if b>a and c and d:
-    (second_number)=b 
-    return second_number
- if c>a and b and d:
-    (third_number)=c
-    return third_number
- if d>a and b and c:
-    (fourth_number)=d
-    return fourth_number
-first_number=a
-second_number =b
-third_number=c
-fourth_number=d
+#a    
+def aprint():
+ if a>= b and a>= c and a>=d:
+    if b>=c and b>=d:
+     if c>=d:
+       print=a, b, c, d
+    else:
+        print=a, b, d, c
+    if c>b:
+      print=a, d, c, b
+    else:
+      print=a, d, b, c
+    if c>= d and c>=b:
+      if b>=d:
+       print=a, c, b, d
+    else:
+       print=a, c, d, b
+ return print
+
+final=aprint()
+print (final)
+    
+    
 
 
-print (f"{first_number},{second_number},{third_number},{fourth_number}")
+
 
