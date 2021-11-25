@@ -1,9 +1,9 @@
 #Program 1: Number Sorter
 #Create a program that ask 4 numbers. 
-a=int(input("Please enter your first number:"))
-b=int(input("Please enter your second number:"))
-c=int(input("Please enter your third number:"))
-d=int(input("Please enter your fourth number:"))
+a=float(input("Please enter your first number:"))
+b=float(input("Please enter your second number:"))
+c=float(input("Please enter your third number:"))
+d=float(input("Please enter your fourth number:"))
 
 #Print the 4 numbers from highest to lowest using only if-else statement.
 
