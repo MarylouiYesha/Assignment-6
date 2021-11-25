@@ -49,3 +49,44 @@ if (b>a and b>c and b>d):
                   print(f"{b}, {d}, {a}, {c}")
 
 #c
+if (c>a and c>b and c>d):
+      #a second highest
+      if (a>b and a>d and b>d):
+            print(f"{c}, {a}, {b}, {d}")
+      else:
+            if (a>b and a>d and d>b):
+                  print(f"{c}, {a}, {d}, {b}")
+      #b second highest
+      if (b>a and b>d and a>d):
+            print(f"{c}, {b}, {a}, {d}")
+      else:
+            if (b>a and b>d and d>a):
+                  print(f"{c}, {b}, {d}, {a}")
+      #d second higest
+      if (d>a and d>b and a>b):
+            print(f"{c}, {d}, {a}, {b}")
+      else:
+            if (d>a and d>b and b>a):
+                  print(f"{c}, {d}, {b}, {a}")
+
+#d
+if (d>a and d>b and d>c):
+      #a second highest
+      if (a>b and a>c and b>c):
+            print(f"{d}, {a}, {b}, {c}")
+      else:
+            if (a>b and a>c and c>b):
+                  print(f"{d}, {a}, {b}, {c}")
+      #b second highest
+      if (b>a and b>c and a>c):
+            print(f"{d}, {b}, {a}, {c}")
+      else:
+            if (b>a and b>c and c>a):
+                  print(f"{d}, {b}, {c}, {a}")
+      #c second highest
+      if (c>a and c>b and a>b):
+            print(f"{d}, {c}, {a}, {b}")
+      else:
+            if (c>a and c>b and b>a):
+                  print(f"{d}, {c}, {b}, {a}")
+      
